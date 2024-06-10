@@ -1,0 +1,38 @@
+_id: req_eb99ff1e0af8403ba526e7dabad0ef2a
+type: Request
+parentId: fld_f5ea4a04a29b4ffb85f42b4b0f5dd42e
+modified: 1718037711910
+created: 1718037427322
+url: "{{ _.base_url }}/transactions/{% response 'body',
+  'req_6597eb0be26d4fb8b509c7c0f59cb96b', 'b64::JC5pZA==::46b', 'never', 60 %}"
+name: Update a transaction
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |
+    {
+        "source": "UK8412325587359375895",
+        "senderName": "Mister Smith",
+        "destination": "GR872559435350353",
+        "amount": 101,
+        "currency": "USD",
+        "subject": "Invoice #34078ja"
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/9.2.0
+authentication: {}
+metaSortKey: -1718037427322
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

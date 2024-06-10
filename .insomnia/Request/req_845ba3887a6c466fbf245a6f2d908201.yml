@@ -1,0 +1,28 @@
+_id: req_845ba3887a6c466fbf245a6f2d908201
+type: Request
+parentId: fld_f5ea4a04a29b4ffb85f42b4b0f5dd42e
+modified: 1718037908874
+created: 1718036952646
+url: "{{ _.base_url }}/transactions/{% response 'body',
+  'req_6597eb0be26d4fb8b509c7c0f59cb96b', 'b64::JC5pZA==::46b', 'never', 60 %}"
+name: Cancel a transaction
+description: ""
+method: DELETE
+body: {}
+preRequestScript: ""
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  key: apikey
+  value: "{{ _.apikey }}"
+  addTo: header
+metaSortKey: -1718036952646
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

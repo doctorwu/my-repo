@@ -1,0 +1,26 @@
+_id: env_28c7037fffac4fec8148a83c3da906c6
+type: Environment
+parentId: env_bb766b422568ad3ff0cb74bbcc013544f8bb26e6
+modified: 1718037071859
+created: 1718037041994
+name: localdev
+data:
+  scheme: http
+  base_path: ""
+  host: shared-services-hybrid.kong-sales-engineering.com
+  apikey: apikey
+  bearerToken: bearerToken
+  base_url: "{{ _.host }}"
+  id: b88f7029-fa93-41a5-9462-4884e544bf63
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+    - apikey
+    - bearerToken
+    - base_url
+    - id
+color: null
+isPrivate: false
+metaSortKey: 1718037041995

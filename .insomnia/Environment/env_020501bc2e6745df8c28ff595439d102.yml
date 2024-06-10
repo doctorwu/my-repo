@@ -1,0 +1,16 @@
+_id: env_020501bc2e6745df8c28ff595439d102
+type: Environment
+parentId: env_bb766b422568ad3ff0cb74bbcc013544f8bb26e6
+modified: 1718036829674
+created: 1718036829674
+name: OpenAPI env shared-services-hybrid.kong-sales-engineering.com
+data:
+  scheme: https
+  base_path: ""
+  host: shared-services-hybrid.kong-sales-engineering.com
+  apikey: apikey
+  bearerToken: bearerToken
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1718036829674

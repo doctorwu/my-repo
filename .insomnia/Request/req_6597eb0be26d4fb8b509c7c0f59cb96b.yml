@@ -1,0 +1,41 @@
+_id: req_6597eb0be26d4fb8b509c7c0f59cb96b
+type: Request
+parentId: fld_f5ea4a04a29b4ffb85f42b4b0f5dd42e
+modified: 1718037348830
+created: 1718036952644
+url: "{{ _.base_url }}/transactions"
+name: Create new transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "{% uuid 'v4' %}",
+      "source": "GR872659435350353",
+      "senderName": "Joe Blow",
+      "destination": "DE8412325587359375895",
+      "amount": 42,
+      "currency": "EUR",
+      "subject": "Invoice #42-08/15"
+    }
+preRequestScript: ""
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication:
+  type: apikey
+  key: apikey
+  value: "{{ _.apikey }}"
+  addTo: header
+metaSortKey: -1718036952644
+isPrivate: false
+pathParameters: []
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
