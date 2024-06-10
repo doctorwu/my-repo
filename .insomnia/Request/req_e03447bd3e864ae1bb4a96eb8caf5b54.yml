@@ -19,6 +19,7 @@ body:
       "currency": "EUR",
       "subject": "Invoice #42-08/15"
     }
+preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -31,6 +32,7 @@ authentication:
   addTo: header
 metaSortKey: -1700563894966
 isPrivate: false
+pathParameters: []
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

@@ -8,6 +8,7 @@ name: Cancel a transaction
 description: ""
 method: DELETE
 body: {}
+preRequestScript: ""
 parameters: []
 headers: []
 authentication:
@@ -17,6 +18,7 @@ authentication:
   addTo: header
 metaSortKey: -1700563894971
 isPrivate: false
+pathParameters: []
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
